@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "<REDACTED>",
+    "firebase_url": "https://desktexter.firebaseio.com",
+    "project_id": "desktexter",
+    "storage_bucket": "desktexter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "<REDACTED>",
+        "android_client_info": {
+          "package_name": "com.mdooreleyers.desktexter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "<REDACTED>",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdooreleyers.desktexter",
+            "certificate_hash": "<REDACTED>"
+          }
+        },
+        {
+          "client_id": "<REDACTED>,
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "<REDACTED>"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "<REDACTED>",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

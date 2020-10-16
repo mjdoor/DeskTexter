@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "DeskTexter",
+    "slug": "DeskTexter",
+    "platforms": ["ios", "android"],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "notification": {
+      "icon": "./assets/notification_icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mdooreleyers.desktexter",
+      "buildNumber": "1.0.2"
+    },
+    "android": {
+      "package": "com.mdooreleyers.desktexter",
+      "versionCode": 3,
+      "permissions": [],
+      "googleServicesFile": "./config/google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyAd7SCUfIHyKC-RB4A9kbfAeEWciNgFXC8"
+        }
+      }
+    }
+  }
+}
